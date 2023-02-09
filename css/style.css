@@ -1,0 +1,17 @@
+.startPage {
+    background-image: url(../images/sven-wilhelm-2cRXSWyMHA8-unsplash.png);
+    padding-top: 50px;
+}
+body {
+    background-color: black;
+}
+.NavList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
