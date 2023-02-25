@@ -1,6 +1,7 @@
 .startPage {
     background-image: url(../images/sven-wilhelm-2cRXSWyMHA8-unsplash.png);
     padding-top: 20px;
+    height: 900px;
 }
 body {
     background-color: black;
@@ -24,17 +25,20 @@ body {
     font-size: 34px;
     font-weight:bolder
 }
-.firstP_main {
-    display: flex;
-    justify-content: center;
-}
 
 .rightBox :nth-child(1) {  
-   z-index: 1;
+    position: fixed;
+    bottom: 117px;
+    right: 98px;
+    z-index: 1;
+    opacity: 0.1;
 }
 .rightBox :nth-child(2) {    
-    height: 922px;
+    height: 800px;
     z-index: 10;
+    position: fixed;
+    right: 375px;
+    bottom: 30px;
 }
 .leftBox {
     color: white;
@@ -47,4 +51,13 @@ body {
 }
 .leftBox h1 {
     font-size: 78px;
+    margin-bottom: 26px;
+}
+.leftBox a {
+    color: white;
+    font-weight: lighter;
+}
+.leftBox i {
+    color: #1C1C1C;
+    margin-left: 41px;
 }
